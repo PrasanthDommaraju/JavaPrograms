@@ -4,5 +4,7 @@ public class SampleProgram {
 
         System.out.println("Sample program to push to GitHub");
 
+        System.out.println("Tested Successfully");
+
     }
 }
