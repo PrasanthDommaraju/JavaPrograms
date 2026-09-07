@@ -5,13 +5,15 @@ public class ReverseString {
         String s = "Java";
         //Converting string to array
         char[] arr = s.toCharArray();
-        String rev = "";
+ //     String rev = "";
+        StringBuilder rev = new StringBuilder();
         int len = s.length();
 
         //for loop to read the string in reverse
         for(int i=(len-1);i>=0;i--) {
 //            rev=rev+s.charAt(i);
-              rev=rev+arr[i];
+//            rev=rev+arr[i];
+            rev.append(arr[i]);
 
         }
 
